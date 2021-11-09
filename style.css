@@ -1,0 +1,77 @@
+body {
+    margin: 0 8px;
+}
+.container {
+    margin-top: 100px;
+}
+.numbers {
+    box-sizing: border-box;
+    background: rgb(245, 245, 245);
+    padding: 10px;
+}
+.num {
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    margin: 4px;
+}
+.c1 {
+    background-color: blueviolet;
+}
+.c2 {
+    background-color: blue; 
+}
+.c3 {
+    background-color: crimson;
+}
+.c4 {
+    background-color: darkgreen;
+}
+.c5 {
+    background-color: darkorange;
+}
+.c6 {
+    background-color: deeppink;
+}
+.c7 {
+    background-color: indigo;
+}
+.c8 {
+    background-color: magenta;
+}
+.colNum {
+    width: 28px;
+    height: 20px;
+    border-radius: 50%;
+}
+.random {
+    float: right;
+    border-radius: 8px;
+}
+.reset {
+    border-radius: 8px;
+}
+.text {
+    font-weight: bold;
+}
+.betNumbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.betNum {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin: 3px;
+}
+.selected {
+    opacity: 0.6;
+}
